@@ -14,10 +14,12 @@
   <div class ="container">
     <div class ="row">
       <h1>Click Your Friends (Or Just People & Things!)</h1>
-      <h2>Once you click, a 20 second countdown will start. Click as many icons as you can in 20 seconds!.</h2>
+      <h2>Once you click, a 20 second countdown will start.</h2>
+      <h2> Click as many icons as you can in 20 seconds!.</h2>
+    </div>
 
-      <button type="button" class="btn btn-success" onclick="countdown()">Start!</button>
-  
+    <div class ="row">
+      <button type="button" class="btn btn-success" id="start-button" >Start!</button>
     </div>
 
     <br>
@@ -35,18 +37,25 @@
           <div class="col-md-1">10</div>
           <div class="col-md-1">11</div>
           <div class="col-md-1">12</div>
-      </div>
+    </div>
     <div class ="row">
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Silver_Acura_NSX_fr.jpg/799px-Silver_Acura_NSX_fr.jpg" ></div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Silver_Acura_NSX_fr.jpg/799px-Silver_Acura_NSX_fr.jpg" >
+      </div>
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-         <img src="http://icdn4.digitaltrends.com/image/2015-lexus-rc-f-front-right-1500x844.jpg" ></div>
+       <img src="http://icdn4.digitaltrends.com/image/2015-lexus-rc-f-front-right-1500x844.jpg" >
+      </div>
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-           <img src="http://media.ed.edmunds-media.com/audi/r8/2014/oem/2014_audi_r8_coupe_v10-plus-quattro_fq_oem_1_815.jpg" ></div>
+       <img src="http://media.ed.edmunds-media.com/audi/r8/2014/oem/2014_audi_r8_coupe_v10-plus-quattro_fq_oem_1_815.jpg" >
+      </div>
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-             <img src="http://1.bp.blogspot.com/-m8S5S88QjbY/TWzC8lQkZfI/AAAAAAAAC88/Dk1hMqoY2Pk/s1600/2012_LAMBORGHINI_Aventador_LP700-4_1.jpg" ></div>
+       <img src="http://1.bp.blogspot.com/-m8S5S88QjbY/TWzC8lQkZfI/AAAAAAAAC88/Dk1hMqoY2Pk/s1600/2012_LAMBORGHINI_Aventador_LP700-4_1.jpg" >
+      </div>
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Mercedes-Benz_SLR_McLaren_(8615983979).jpg" onclick="countup(); this. onclick=null"></div>
+       <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Mercedes-Benz_SLR_McLaren_(8615983979).jpg" >
+      </div><div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+       <img src="http://blogs-images.forbes.com/matthewdepaula/files/2015/01/NSX-Exterior-5.jpg" >
+      </div>
     </div>
     <br>
     <div class ="row">
@@ -63,11 +72,11 @@
         <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/MGOldLakersLogo4.PNG" >
       </div>
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-       <img src="http://pbs.twimg.com/profile_images/664843237937385472/Dk2nbTV_.jpg" onclick="countup(); this. onclick=null">
+       <img src="http://pbs.twimg.com/profile_images/664843237937385472/Dk2nbTV_.jpg" >
       </div>
       
       <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-        <img src="http://www.resetsanfrancisco.org/wp-content/uploads/2015/05/warriors.jpg" onclick="countup(); this. onclick=null">
+        <img src="http://www.resetsanfrancisco.org/wp-content/uploads/2015/05/warriors.jpg" >
       </div>
     </div>
     <br>
@@ -122,6 +131,7 @@
   </div>
 
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
   <script type="text/javascript" src="click.js"></script>
 </body>
 </html>
