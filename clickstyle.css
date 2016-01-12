@@ -1,3 +1,37 @@
 body {
   background-color: lightgray;
 }
+
+h1 {
+  text-align: center
+}
+h2 {
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: 150px;
+}
+
+.btn {
+  text-align: center;
+}
+
+#start-button {
+  position: relative;
+  text-align: center;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+}
+/*
+#verification-btn {
+  position: fixed;
+  
+} */
+
+
