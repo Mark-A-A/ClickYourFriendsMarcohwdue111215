@@ -22,3 +22,16 @@ img{
   position: relative;
   text-align: center;
 }
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+}
+/*
+#verification-btn {
+  position: fixed;
+  
+} */
+
+
